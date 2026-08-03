@@ -93,7 +93,7 @@ cartella `data/`, quindi eseguire i notebook nell'ordine indicato in `notebooks/
 
 ## Tesi completa
 
-Il testo completo della tesi è disponibile [qui](docs/Metodologie_di_ML_analisi_classificazione_cellule_Ematopoietiche.pdf).
+Il testo completo della tesi è disponibile [qui](docs/Metodologie_ di_ML_analisi_classificazione_cellule_Ematopoietiche.pdf).
 
 ## Autore
 
