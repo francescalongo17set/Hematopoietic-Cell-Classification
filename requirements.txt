@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+h5py
+plotly
+umap-learn
+xgboost
+lightgbm
+torch
+pytorch-tabnet
+optuna
