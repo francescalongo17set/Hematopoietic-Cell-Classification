@@ -67,6 +67,7 @@ per riprodurre l'analisi è necessario procurarsi o ricreare feature nello stess
 ├── src/
 │   ├── data_loading.py                 # Caricamento dati e mapping delle classi
 │   ├── eda_utils.py                    # Funzioni di visualizzazione riusate nell'EDA
+│   ├── preprocessing.py                # Funzioni di preprocessing dei modelli
 │   └── evaluation.py                   # Calcolo metriche di valutazione dei modelli
 └── data/
     └── README.md                       # Formato atteso dei dati di input
