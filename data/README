@@ -1,0 +1,41 @@
+# Dati attesi in questa cartella
+
+Questa cartella **non contiene dati** (non sono inclusi nel repository, vedi il README
+principale per i motivi). Qui viene descritto il formato che i notebook si aspettano di
+trovare, così chiunque cloni il progetto sa come ricrearlo o procurarselo.
+
+## File richiesti
+
+```
+data/
+├── train_features_bone_marrow.h5
+└── test_features_bone_marrow.h5
+```
+
+## Formato dei file `.h5`
+
+Ogni file è un file HDF5 con un unico dataset interno chiamato `"features"`:
+
+- **Shape:** `(n_campioni, 65)`
+- **Colonne 0–63:** 64 feature numeriche estratte da ciascuna immagine di cellula.
+- **Colonna 64 (ultima):** etichetta numerica della classe (0–4), mappata come segue:
+
+| Codice | Classe | Descrizione |
+|--------|--------|-------------|
+| 0 | BAS | Basofilo |
+| 1 | EBO | Eritroblasto |
+| 2 | EOS | Eosinofilo |
+| 3 | LYT | Linfocita |
+| 4 | MON | Monocita |
+
+## Come vengono caricati
+
+La funzione `load_class_data()` in `src/data_loading.py` legge il file `.h5`, separa le
+prime 64 colonne (feature, `X`) dall'ultima (etichetta, `y`) e restituisce due array numpy.
+
+## Provenienza dei dati
+
+Le feature sono state estratte da un sottoinsieme del dataset pubblico
+**Bone-Marrow-Cytomorphology_MLL_Helmholtz_Fraunhofer** (The Cancer Imaging Archive).
+In questo progetto sono state fornite già estratte; per dettagli su fonte e citazione del
+dataset originale vedi la sezione "Dataset" nel README principale.
