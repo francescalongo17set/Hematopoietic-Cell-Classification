@@ -3,14 +3,8 @@
 Tesi di laurea — analisi esplorativa e classificazione multiclasse di caratteristiche
 cellulari ematologiche estratte da immagini di midollo osseo.
 
-<!--
-IMMAGINE 1 (hero): screenshot UMAP 3D
-Percorso: visualizations/dimensionality_reduction/umap_3d.png
-Sintassi: ![Visualizzazione UMAP 3D delle classi cellulari](visualizations/dimensionality_reduction/umap_3d.png)
-La tesi indica UMAP 3D come la rappresentazione più efficace per mostrare la separabilità
-tra le classi (cap. 2.3.4) — è il modo più immediato per far capire a colpo d'occhio
-il risultato dell'analisi esplorativa, va messa qui, subito sotto il titolo.
--->
+
+![Visualizzazione UMAP 3D delle classi cellulari](visualizations/dimensionality_reduction/umap_3d.png)
 
 ## Descrizione del progetto
 
@@ -105,12 +99,9 @@ per riprodurre l'analisi è necessario procurarsi o ricreare feature nello stess
 
 ## Risultati
 
-<!--
-IMMAGINE 2: screenshot confusion matrix del modello finale (TabNet ottimizzato)
-Percorso: visualizations/model_results/confusion_matrix_tabnet_tuned.png
-Sintassi: ![Confusion matrix di TabNet ottimizzato](visualizations/model_results/confusion_matrix_tabnet_tuned.png)
-Va messa qui, subito prima o dopo la tabella: è la prova visiva della conclusione della tesi.
--->
+
+![Confusion matrix di TabNet ottimizzato](visualizations/model_results/confusion_matrix_tabnet_tuned.png)
+
 
 | Modello            | Accuracy | Balanced Accuracy | F1 Macro | Recall Macro |
 |---------------------|----------|--------------------|----------|--------------|
