@@ -100,7 +100,7 @@ per riprodurre l'analisi è necessario procurarsi o ricreare feature nello stess
 ## Risultati
 
 
-![Confusion matrix di TabNet ottimizzato](visualizations/model_results/confusion_matrix_tabnet_tuned.png)
+![Confusion matrix di TabNet ottimizzato](visualizations/model_results/results.png)
 
 
 | Modello            | Accuracy | Balanced Accuracy | F1 Macro | Recall Macro |
