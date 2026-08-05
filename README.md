@@ -4,7 +4,7 @@ Tesi di laurea — analisi esplorativa e classificazione multiclasse di caratter
 cellulari ematologiche estratte da immagini di midollo osseo.
 
 
-![Visualizzazione UMAP 3D delle classi cellulari](visualizations/dimensionality_reduction/UMAP3D.png)
+![Visualizzazione UMAP 3D delle classi cellulari](visualizations/dimensionality_reductions/UMAP3D.png)
 
 ## Descrizione del progetto
 
